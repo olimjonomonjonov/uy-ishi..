@@ -1,0 +1,43 @@
+.box1{
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+background: #f3f4f6;
+}
+.flex div,
+.between div,
+.around div,
+.start div,
+.end div {
+    width: 150px;
+    height: 150px;
+    background: #7e22ce;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+.flex,
+.between,
+.around,
+.start,
+.end {
+    background: #16a34a;
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.flex     { justify-content: center; }
+.between  { justify-content: space-between; }
+.around   { justify-content: space-around; }
+.start    { justify-content: flex-start; }
+.end      { justify-content: flex-end; }
